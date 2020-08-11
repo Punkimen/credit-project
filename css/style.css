@@ -1,0 +1,46 @@
+html,
+body {
+  box-sizing: border-box;
+  font-family: 'Futura PT';
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.start {
+  background: linear-gradient(245.27deg, #512DA8 10.9%, #7E57C2 65.77%);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 37px 0;
+}
+
+.desktop-menu a {
+  display: block;
+  color: #fff;
+  max-width: 90px;
+}
+
+/*# sourceMappingURL=style.css.map */
